@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const FREQUENCY_HOURS = process.env.FREQUENCY_HOURS;
 const rule = new schedule.RecurrenceRule();
-rule.hour = new schedule.Range(0, 23, FREQUENCY_HOURS);
+rule.hour = new schedule.Range(0, 23, +FREQUENCY_HOURS);
 rule.minute = 0;
 rule.tz = 'Etc/UTC';
 

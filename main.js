@@ -8,6 +8,12 @@ const rule = new schedule.RecurrenceRule();
 rule.hour = FREQUENCY_HOURS;
 rule.tz = 'Etc/UTC';
 
+const startInfo = () => {
+    console.log(`Starting Compound Bot\n\tPRIV_KEY: ${process.env.PRIVATE_KEY}\n\tWH_URL: ${process.env.DISCORD_WH_URL}\n\tFREQUENCY: ${process.env.FREQUENCY_HOURS}\n`);
+}
+
+startInfo();
+
 const contracts = contractHelper.initContracts();
 
 const main = async () => {
@@ -15,7 +21,7 @@ const main = async () => {
     await sendWebhook("Compound Info", compoundInfo, contractHelper.getWalletAddress());
 }
 
-main()
+// main()
 
 schedule.scheduleJob(rule, async () => {
     await main();

@@ -21,7 +21,7 @@ const main = async () => {
     await sendWebhook("Compound Info", compoundInfo, contractHelper.getWalletAddress());
 }
 
-// main()
+main()
 
 schedule.scheduleJob(rule, async () => {
     await main();

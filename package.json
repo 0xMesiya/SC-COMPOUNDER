@@ -1,0 +1,15 @@
+{
+    "name": "sc-compounder",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^14.14.1",
+        "dotenv": "^16.4.5",
+        "node-schedule": "^2.1.1",
+        "web3": "^4.6.0"
+    }
+}

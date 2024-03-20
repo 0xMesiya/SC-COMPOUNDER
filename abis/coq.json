@@ -1,0 +1,38 @@
+{
+    "ADDRESS": "0x23c90ba7721824f7e0653ff34c959d61aacd2f3e",
+    "BALANCE_METHOD": "hatcheryMiners",
+    "ABI": [
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "ref",
+                    "type": "address"
+                }
+            ],
+            "name": "compound",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "name": "hatcheryMiners",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ]
+}

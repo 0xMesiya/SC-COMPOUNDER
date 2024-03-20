@@ -1,0 +1,38 @@
+{
+    "ADDRESS": "0x09F1cdC09A032d8AB7541b94076729a04E7e5355",
+    "BALANCE_METHOD": "hatcheryGorillas",
+    "ABI": [
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "ref",
+                    "type": "address"
+                }
+            ],
+            "name": "compound",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "name": "hatcheryGorillas",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ]
+}

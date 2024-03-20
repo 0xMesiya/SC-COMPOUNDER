@@ -8,11 +8,13 @@ Currently only supports KONGMINER & COQMINER. Can be easily extended by adding t
 
 Any abi's being added must follow the following format.
 
+```JSON
 {
     "ADDRESS": "miner address",
     "BALANCE_METHOD": "the name of the method to get miners",
     "ABI": "ABI - usually only needs the compound method and the getMiners method (this is usually different per contract)"
 }
+```
 
 ### Prerequisites
 

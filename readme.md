@@ -32,9 +32,9 @@ Any abi's being added must follow the following format.
 The following environment variables need to be set in the `.env` file:
 
 ```
-PRIVATE_KEY: Private key
-DISCORD_WH_URL: Discord webhook URL
-FREQUENCY_HOURS: How often to compound (must be in full hours)
+PRIVATE_KEY=Private key
+DISCORD_WH_URL=Discord webhook URL
+FREQUENCY_HOURS=How often to compound (must be in full hours)
 ```
 
 ## Usage

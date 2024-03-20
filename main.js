@@ -1,6 +1,6 @@
 const schedule = require('node-schedule');
 const contractHelper = require('./contractHelper.js');
-const { sendWebhook } = require('./abis/discord.js');
+const { sendWebhook } = require('./discord.js');
 require('dotenv').config();
 
 const FREQUENCY_HOURS = process.env.FREQUENCY_HOURS;

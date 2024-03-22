@@ -33,7 +33,10 @@ const compountAll = async (contracts) => {
 }
 
 const compound = async (contract) => {
-    return await contract.methods.compound(wallet.address).send({ from: wallet.address, gas: 1000000 });
+    return new Promise((resolve, reject) => {
+        contract.methods.compound(wallet.address).send({ from: wallet.address, gas: 1000000 })
+            .then(() => resolve(true))
+    });
 }
 
 const getBalances = async (contracts) => {

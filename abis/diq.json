@@ -1,6 +1,6 @@
 {
     "ADDRESS": "0xB4aE6217D5D5C685fF3b0ee0E2cAF968e75B17bc",
-    "BALANCE_METHOD": "diqinuminers",
+    "BALANCE_METHOD": "diqInuMiners",
     "ABI": [
         {
             "inputs": [
